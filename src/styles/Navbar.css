@@ -1,0 +1,46 @@
+.navbar-container {
+  display: flex;
+  background-color: #e3b587;
+  width: 100%;
+  height: 50px;
+  box-shadow: 3px 10px 35px -6px rgba(0, 0, 0, 0.32);
+  position: fixed;
+}
+
+.nav-items {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+}
+
+.nav-items > *:first-child {
+  margin-right: 30px;
+  margin-left: 25px;
+}
+.nav-items > li {
+  margin-left: 20px;
+  list-style: none;
+}
+.nav-items > *:last-child {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.wallet-button {
+  border-radius: 5px;
+  background-color: #456672;
+  color: whitesmoke;
+  width: 150px;
+  height: 35px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.link {
+  text-decoration: none;
+  color: #314357;
+}

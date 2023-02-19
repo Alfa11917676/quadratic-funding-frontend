@@ -1,0 +1,16 @@
+.body--container {
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project--card {
+  width: 300px;
+  height: 500px;
+  background-color: #456672;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+}

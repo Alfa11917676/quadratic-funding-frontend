@@ -1,0 +1,79 @@
+.view--container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.margin-reset {
+  margin: 0;
+}
+.project--card {
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.project--by {
+  align-self: flex-start;
+}
+
+.creator-container {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project-img {
+  object-fit: contain;
+  max-width: 90%;
+}
+
+.donate--button {
+  margin-top: 10px;
+  width: 60%;
+  height: 30px;
+  appearance: none;
+  border-radius: 20px;
+}
+
+.donate--container {
+  margin-top: 10px;
+  display: flex;
+}
+
+.self--container {
+  margin-top: 30px;
+  display: flex;
+}
+
+.donate--container > * {
+  margin-right: 10px;
+}
+
+.timer--banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: aqua; */
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.timer--banner > h2 {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.timer--banner > h1 {
+  margin: 0;
+}
+.timer--banner > *:last-child {
+  margin-left: auto;
+}
